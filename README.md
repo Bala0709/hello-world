@@ -1,2 +1,8 @@
-# hello-world
-You are reading about a librocubicularist, who is passionate to learn data science from this workspace
+a <- c('a', 'b', 7L, TRUE, 3+4i, 'b')
+factor_a <- factor(a)
+print(factor_a)
+print(nlevels(factor_a))
+d <- matrix(nlevels(factor_a), nrow=2, ncol=3)
+print (d)
+e <- array(d, dim= c(2,2,1))
+print(e)
